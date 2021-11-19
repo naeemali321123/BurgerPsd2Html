@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face{
+    font-family: Archivo-Bold;
+    src: url(../fonts/Archivo-Bold.ttf);
+}
+@font-face{
+    font-family: Nunito-Regular;
+    src: url(../fonts/Nunito-Regular.ttf)
+}
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+*{
+    margin: 0px; padding: 0px; box-sizing: border-box;
+}
+.uniPadding{
+    padding: 0px 5%;
+}
+/* discount section */
+#discountSection{
+    background-image: url(/images/Background\ 01.png);
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+#logo{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#navbar{   
+    text-align: right;
+    position: relative;
+    bottom: 80px;
+}
+#navbar ul li{
+    display: inline-block;
+    font-size: 22px;
+    font-family: Poppins-SemiBold;
+    padding: 0px 30px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+}
+#discountInfo{
+    width: 50%;
+}
+#discountInfo h1{
+    font-size: 80px;
+    font-family: Archivo-Bold;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+#discountInfo p{
+    font-size: 30px;
+    font-family: Nunito-Regular;
+}
+#discountInfo h2{
+    font-size: 22px;
+    font-family: Poppins-SemiBold;
+    background-color: #f64b3c;
+    width: 230px;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+#discountInfo h2 a{
+    text-decoration: none;
+    color: white;
+}
+#discountInfo h2 a:hover{
+    font-size: 24px;
+}
+/* Our Chef Section */
+#ourChefSection{
+    background-image: url(../images/Background\ 02.jpg);   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+    color: #f64b3c;
+    padding-bottom: 80x;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fit minmax(200px 1fr));
+    justify-items: center;
+}
+#discription{
+    display: grid;
+    justify-items: center;
+    width: 50%;
+    grid-column: 1/-1;
+}
+#discription h1{
+    font-size: 50px;
+    font-family: Archivo-Bold;
+}
+#discription p{
+    font-size: 22px;
+    font-family: Nunito-Regular;
+    padding: 30px;
+}
+#chef{
+    font-size: 15px;
+    text-align: center;
+    padding: 40px 0px;
+}
+#chef h1{
+    font-family: Archivo-Bold;
+    padding: 15px 0px;
+}
+#chef p{
+    font-family: Montserrat-Regular;
+    font-size: 22px;
+}
