@@ -243,7 +243,7 @@
     background-color: #f64b3c;
     color: white;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax);
     grid-template-rows: repeat(2, 1fr);
     text-align: center;
     justify-content: center;
