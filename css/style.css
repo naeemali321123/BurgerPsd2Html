@@ -2,118 +2,117 @@
         font-family: Poppins-SemiBold;
         src: url(../fonts/Poppins-SemiBold.ttf);
     }
-    
+
     @font-face {
         font-family: Archivo-Bold;
         src: url(../fonts/Archivo-Bold.ttf);
     }
-    
+
     @font-face {
         font-family: Nunito-Regular;
         src: url(../fonts/Nunito-Regular.ttf)
     }
-    
+
     @font-face {
         font-family: Montserrat-Regular;
         src: url(../fonts/Montserrat-Regular.ttf)
     }
-    
+
     @font-face {
         font-family: Montserrat-Bold;
         src: url(../fonts/Montserrat-Bold.ttf);
     }
-    
+
     * {
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
     }
-    
+
     .uniPadding {
         padding: 0px 5%;
     }
+
     /* discount section */
-    
+
     #discountSection {
         background-image: url(/images/Background\ 01.png);
         color: white;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        padding-top: 10px;
         padding-bottom: 80px;
     }
-    
+
     #topbar {
         display: flex;
-    }
-    
-    #logo {
-        padding-top: 20px;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
         padding-bottom: 10px;
     }
-    
-    #logo img {
-        width: 100px;
-        height: 90px;
+
+    #logo, #discountInfo {
+        width: 50%;
     }
-    
+
     #navbar {
-        padding: 30px 0px 30px 280px;
+        width: 50%;
+        text-align: right;
     }
-    
+
     #navbar ul li {
         display: inline-block;
         font-size: 22px;
         font-family: Poppins-SemiBold;
-        padding: 0px 30px;
+        padding-left: 30px;
     }
-    
+
     #navbar ul li a {
         text-decoration: none;
         color: white;
     }
-    
+
     #navbar ul li a:hover {
         text-decoration: underline;
     }
-    
-    #discountInfo {
-        width: 50%;
-    }
-    
+
     #discountInfo h1 {
-        font-size: 70px;
+        font-size: 50px;
         font-family: Archivo-Bold;
         padding-bottom: 40px;
         padding-top: 40px;
     }
-    
+
     #discountInfo p {
         font-size: 30px;
         font-family: Nunito-Regular;
     }
-    
+
     #discountInfo h2 {
-        font-size: 22px;
+        font-size: 18px;
         font-family: Poppins-SemiBold;
         background-color: #f64b3c;
-        width: 230px;
+        width: 200px;
         padding: 10px 30px;
         text-align: center;
         border-radius: 30px;
         margin-top: 50px;
     }
-    
+
     #discountInfo h2 a {
         text-decoration: none;
         color: white;
     }
-    
+
     #discountInfo h2 a:hover {
-        font-size:23;
+        font-size: 19px;
+        
     }
+
     /* Our Chef Section */
-    
+
     #ourChefSection {
         background-image: url(../images/Background\ 02.jpg);
         background-position: center;
@@ -127,41 +126,42 @@
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
     }
-    
+
     #chefDetail {
         display: grid;
         justify-items: center;
         width: 50%;
         grid-column: 1/-1;
     }
-    
+
     #chefDetail h1 {
         font-size: 50px;
         font-family: Archivo-Bold;
     }
-    
+
     #chefDetail p {
         font-size: 22px;
         font-family: Nunito-Regular;
         padding: 30px;
     }
-    
+
     #chef {
         text-align: center;
         padding: 35px 0px;
     }
-    
+
     #chef h1 {
         font-family: Archivo-Bold;
         padding: 15px 0px;
     }
-    
+
     #chef p {
         font-family: Montserrat-Regular;
         font-size: 22px;
     }
+
     /* burger Catory Section */
-    
+
     #burgerCategorySection {
         background-color: #f64b3c;
         color: white;
@@ -170,23 +170,23 @@
         align-items: center;
         padding: 7%;
     }
-    
+
     #burgerInfo {
         padding-left: 150px;
     }
-    
+
     #burgerCategorySection h1 {
         font-size: 70px;
         font-family: Archivo-Bold;
         padding-bottom: 40px;
     }
-    
+
     #burgerCategorySection p {
         font-size: 25px;
         font-family: Nunito-Regular;
         padding-bottom: 40px;
     }
-    
+
     #burgerCategorySection h2 {
         font-size: 22px;
         font-family: Poppins-SemiBold;
@@ -196,17 +196,18 @@
         text-align: center;
         border-radius: 30px;
     }
-    
+
     #burgerCategorySection h2 a {
         text-decoration: none;
         color: #f64b3c;
     }
-    
+
     #burgerCategorySection h2 a:hover {
         font-size: 24px;
     }
+
     /* burger category section2 */
-    
+
     #burgerCategorySection1 {
         background-image: url(../images/Background\ 03.jpg);
         background-size: cover;
@@ -218,24 +219,25 @@
         align-items: center;
         padding: 7%;
     }
-    
+
     #burgerInfo1 {
         padding-right: 150px;
     }
-    
+
     #burgerCategorySection1 h1 {
         font-size: 70px;
         font-family: Archivo-Bold;
         padding-bottom: 40px;
     }
-    
+
     #burgerCategorySection1 p {
         font-size: 25px;
         font-family: Nunito-Regular;
         padding-bottom: 40px;
     }
+
     /* order now button */
-    
+
     #burgerCategorySection1 h2,
     #bestPackage h2 {
         font-size: 22px;
@@ -247,19 +249,20 @@
         text-align: center;
         border-radius: 30px;
     }
-    
+
     #burgerCategorySection1 h2 a,
     #bestPackage h2 a {
         text-decoration: none;
         color: white
     }
-    
+
     #burgerCategorySection1 h2 a:hover,
     #bestPackage h2 a:hover {
         font-size: 24px;
     }
+
     /* statistics Section */
-    
+
     #statisticsSection {
         background-color: #f64b3c;
         color: white;
@@ -270,23 +273,23 @@
         justify-items: center;
         padding: 0px 90px 60px 90px;
     }
-    
+
     #statisticsHeading {
         grid-column: 1/-1;
         padding: 60px 0px;
     }
-    
+
     #statisticsHeading h1 {
         font-size: 60px;
         font-family: Archivo-Bold;
     }
-    
+
     #statisticsHeading p {
         font-family: Montserrat-Regular;
         font-size: 22px;
         padding-top: 60px;
     }
-    
+
     #statisticsValue {
         width: 300px;
         height: 300px;
@@ -297,68 +300,70 @@
         align-items: center;
         flex-direction: column;
     }
-    
+
     #statisticsValue h1 {
         font-size: 100px;
         font-family: Archivo-Bold;
     }
-    
+
     #statisticsValue p {
         font-size: 22px;
         font-family: Montserrat-Bold;
     }
+
     /* package section */
-    
+
     #packageSection {
         background-image: url(../images/Background\ 02.jpg);
         background-size: cover;
         color: #f64b3c;
         padding: 5%;
     }
-    
+
     #packageHeading {
         text-align: center;
         font-size: 30px;
         padding-bottom: 60px;
         font-family: Archivo-Bold;
     }
-    
+
     #packages {
         display: flex;
         justify-content: space-between;
         text-align: center;
         flex-wrap: wrap;
     }
-    
+
     #bestPackage {
         background-color: white;
         padding: 30px;
         width: 300px;
     }
-    
+
     #bestPackage h1 {
         font-size: 30px;
         font-family: Archivo-Bold;
         padding-bottom: 30px;
     }
-    
+
     #bestPackage img {
         padding-bottom: 10px;
     }
-    
+
     #bestPackage h3 {
         padding-bottom: 20px;
         font-size: 22px;
         font-family: Archivo-Bold;
     }
-    
+
     #bestPackage p {
         font-size: 18px;
         font-family: Montserrat-Regular;
         padding-bottom: 20px;
     }
+
     /* barry Henderson Section */
-    
+
     #barryHendersonSection {
         background-image: url(../images/Background\ 06.jpg);
         background-size: cover;
@@ -370,7 +375,7 @@
         height: 680px;
         width: 100%;
     }
-    
+
     #barryHendersonSection p {
         width: 50%;
         text-align: center;
@@ -378,14 +383,15 @@
         font-family: Archivo-Bold;
         padding: 40px;
     }
-    
+
     #barryHendersonSection h1 {
         font-size: 40px;
         text-align: center;
         font-family: Montserrat-Bold;
     }
+
     /* Subscribe Section */
-    
+
     #subscribeSection {
         background-image: url(../images/Background\ 02.jpg);
         background-size: cover;
@@ -396,23 +402,23 @@
         align-items: center;
         flex-direction: column;
     }
-    
+
     #subscribeSection h1 {
         font-size: 80px;
         font-family: Archivo-Bold;
     }
-    
+
     #subscribeSection p {
         font-size: 30px;
         font-family: Nunito-Regular;
         width: 60%;
         padding: 30px 0px;
     }
-    
+
     #subscribeForm {
         display: flex;
     }
-    
+
     #subscribeSection form input {
         width: 400px;
         height: 50px;
@@ -422,10 +428,11 @@
         font-size: 18px;
         padding-left: 20px;
     }
+
     input:focus::placeholder {
         color: transparent;
-      }
-    
+    }
+
     #subscribeBtn {
         background-color: #f64b3c;
         color: white;
@@ -438,17 +445,18 @@
         align-items: center;
         width: 150px;
     }
-    
+
     #subscribeBtn a {
         text-decoration: none;
         color: white;
     }
-    
+
     #subscribeBtn a:hover {
         font-weight: bold;
     }
+
     /* Link Section */
-    
+
     #linkSection {
         background-color: #222222;
         color: white;
@@ -458,23 +466,23 @@
         grid-template-rows: auto;
         padding-top: 250px;
     }
-    
+
     #linkSection h1 {
         font-size: 30px;
         font-family: Archivo-Bold;
         padding-bottom: 40px;
     }
-    
+
     #linkSection p {
         font-size: 18px;
         font-family: Nunito-Regular;
         padding-bottom: 40px;
     }
-    
+
     #socialIcon {
         display: flex;
     }
-    
+
     .fab {
         background-color: white;
         color: #222222;
@@ -487,57 +495,92 @@
         text-align: center;
         margin: 5px;
     }
-    
+
     #titleHere {
         grid-column: 1/4;
         width: 70%;
     }
-    
+
     #linkSection ul li {
         padding-bottom: 10px;
         font-size: 18px;
         font-family: Nunito-Regular;
         list-style: none;
     }
+
     /* responsive 4 tap */
 
     @media only screen and (max-width: 1024px) {
         #navbar {
             padding-left: 200px;
         }
-        #navbar ul li{
+
+        #navbar ul li {
             padding-right: 0px;
         }
-        #discountInfo h1{
+
+        #discountInfo h1 {
             font-size: 60px;
         }
-        #discountInfo p{
+
+        #discountInfo p {
             font-size: 22px;
         }
-        #chefDetail p{
+
+        #chefDetail p {
             text-align: center;
         }
+
         #burgerInfo {
             padding-left: 50px;
         }
+
         #burgerInfo1 {
             padding-right: 60px;
         }
-        #statisticsValue{
+
+        #statisticsValue {
             width: 230px;
             height: 230px;
         }
+
         #bestPackage {
             padding: 12px;
             width: 265px;
         }
+
         #barryHendersonSection p {
-        width: 70%;
+            width: 70%;
         }
+
         #burgerCategorySection, #barryHendersonSection, #burgerCategorySection1,
-        #statisticsSection, #subscribeSection, #linkSection{
+        #statisticsSection, #subscribeSection, #linkSection {
             height: 570px;
         }
     }
+
     /* reponsive 4 mobile */
-    
+    @media only screen and (max-width: 500px) {
+        #burgerCategorySection img, #burgerCategorySection1 img {
+            width: 50px;
+            text-align: center;
+        }
+
+        #burgerCategorySection {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        #ourChefSection, #statisticsSection, #burgerCategorySection1,
+        #burgerCategorySection, #subscribeSection {
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+        }
+
+        #subscribeSection form input {
+            padding: 0px;
+            width: 100px;
+        }
+    }
