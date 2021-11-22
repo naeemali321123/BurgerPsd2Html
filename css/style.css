@@ -110,7 +110,7 @@
     }
     
     #discountInfo h2 a:hover {
-        font-size: 24px;
+        font-size:23;
     }
     /* Our Chef Section */
     
@@ -422,6 +422,9 @@
         font-size: 18px;
         padding-left: 20px;
     }
+    input:focus::placeholder {
+        color: transparent;
+      }
     
     #subscribeBtn {
         background-color: #f64b3c;
@@ -497,5 +500,44 @@
         list-style: none;
     }
     /* responsive 4 tap */
+
+    @media only screen and (max-width: 1024px) {
+        #navbar {
+            padding-left: 200px;
+        }
+        #navbar ul li{
+            padding-right: 0px;
+        }
+        #discountInfo h1{
+            font-size: 60px;
+        }
+        #discountInfo p{
+            font-size: 22px;
+        }
+        #chefDetail p{
+            text-align: center;
+        }
+        #burgerInfo {
+            padding-left: 50px;
+        }
+        #burgerInfo1 {
+            padding-right: 60px;
+        }
+        #statisticsValue{
+            width: 230px;
+            height: 230px;
+        }
+        #bestPackage {
+            padding: 12px;
+            width: 265px;
+        }
+        #barryHendersonSection p {
+        width: 70%;
+        }
+        #burgerCategorySection, #barryHendersonSection, #burgerCategorySection1,
+        #statisticsSection, #subscribeSection, #linkSection{
+            height: 570px;
+        }
+    }
+    /* reponsive 4 mobile */
     
-    @media only screen and (width-max: 1100px) {}
