@@ -625,89 +625,113 @@
             padding-bottom: 50px;
             height: auto;
         }
-                
-    @media only screen and (max-width: 500px) {
-        #navbar{
+         /* mobile responsive */
+
+    @media only screen and (max-width: 600px) {
+        #navbar ul li{
             display: none;
+            text-align: center;
+            background-color: #f64b3c;
+            padding: 10px;         
         }
-    }           
-                
+        #discountInfo{
+            width: 100%;
+            text-align: center;
+            display: grid;
+            justify-items: center;
+        }
+        #discountInfo h1{
+            font-size: 40px;
+        }
+            
+        }
 
+        #ourChefSection, 
+        #statisticsSection,
+        #packageSection,
+        #linkSection {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            text-align: center;
+        }
+        #ourChefSection{
+            padding: 0px 5%;
+        }
+        #chefDetail{
+            text-align: center;
+        }
+      
+        #burgerImage, 
+        #burgerInfo, 
+        #burgerImage1, 
+        #burgerInfo1 {
+            width: 100%;
+            display: grid;
+            justify-items: center;
+            text-align: center;
+        }
 
+        #burgerCategorySection1{
+            flex-direction: column-reverse;
+        }
+        #statisticsHeading h1 {
+            font-size: 50px;
+            padding: 30px;
+        }
+        #statisticsValue{
+            margin-bottom: 50px;
+        }
+        #packageHeading{
+            font-size: 18px;
+            padding: 20px;
+        }
+        #bestPackage{
+            width: 270px;
+            margin: 10px 0px;
+            display: grid;
+            justify-items: center;
+        }
+        #barryHendersonSectio, 
+        #subscribeSection {
+            height: auto;
+            padding: 200px 10px;
+        }
 
+        #barryHendersonSection p{
+            font-size: 18px;
+            width: 100%;
+        }
+
+        #barryHendersonSection h1{
+            font-size: 30px;
+        }
+        #subscribeSection h1{
+            font-size: 28px;
+        }
+        #subscribeSection p{
+            width: auto;
+        }
+        #subscribeForm form input{
+            width: 220px;
+        }
+        #subscribeBtn{
+            width: 90px;
+        }
+        #subscribeBtn a{
+            font-size: 18px;
+        }
+        #linkSection{
+            display: grid;
+            text-align: left;
+            padding-left: 100px;
+        }
+        #socialIcon {
+            position: static;
+        }
+        #linkSection h1{
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+        
     }
 
-    /* @media only screen and (max-width: 1024px) {
-        #navbar {
-            padding-left: 200px;
-        }
-
-        #navbar ul li {
-            padding-right: 0px;
-        }
-
-        #discountInfo h1 {
-            font-size: 60px;
-        }
-
-        #discountInfo p {
-            font-size: 22px;
-        }
-
-        #chefDetail p {
-            text-align: center;
-        }
-
-        #burgerInfo {
-            padding-left: 50px;
-        }
-
-        #burgerInfo1 {
-            padding-right: 60px;
-        }
-
-        #statisticsValue {
-            width: 230px;
-            height: 230px;
-        }
-
-        #bestPackage {
-            padding: 12px;
-            width: 265px;
-        }
-
-        #barryHendersonSection p {
-            width: 70%;
-        }
-
-        #burgerCategorySection, #barryHendersonSection, #burgerCategorySection1,
-        #statisticsSection, #subscribeSection, #linkSection {
-            height: 570px;
-        }
-    } */
-
-    /* reponsive 4 mobile */
-    /* @media only screen and (max-width: 500px) {
-        #burgerCategorySection img, #burgerCategorySection1 img {
-            width: 50px;
-            text-align: center;
-        }
-
-        #burgerCategorySection {
-            display: flex;
-            flex-wrap: wrap;
-            text-align: center;
-        }
-
-        #ourChefSection, #statisticsSection, #burgerCategorySection1,
-        #burgerCategorySection, #subscribeSection {
-            display: flex;
-            flex-wrap: wrap;
-            height: auto;
-        }
-
-        #subscribeSection form input {
-            padding: 0px;
-            width: 100px;
-        }
-    } */
+   
